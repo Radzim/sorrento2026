@@ -1,19 +1,19 @@
 # Site settings
-title: DALI 20XX
-subtitle: Data, Learning and Inference
+title: The Sorrento Meeting 2026
+subtitle: The Future of ML Publishing
 permalink: "/:title.html"
 description: > # this means to ignore newlines until "baseurl:"
-  This is the website of the DALI 20XX conference.
-baseurl: "/dali20XX" # the subpath of your site, e.g. /blog/
+  This is the website of the Sorrento Meeting 2026.
+baseurl: "/sorrento2026" # the subpath of your site, e.g. /blog/
 
 # If you want to create a twitter account for your conference include
 # twitter name here
 twitter_username: 
 
-github_username:  dalimeeting
+github_username:  lawrennd
 
 author:
-  name: DALI
+  name: Sorrento Meeting
   # You might want to create an email for handling conference queries, e.g. aistats20XX@gmail.com. If you do, you can enter it here.
   email: 
 comments: false
@@ -26,12 +26,12 @@ plugins:
 - jekyll-remote-theme
 # change encoding for the generated output files to utf-8
 encoding: utf-8
-remote_theme: dalimeeting/jekyll-theme
+remote_theme: lawrennd/jekyll-theme
 style: dali
 
 ghub:
   edit: true
-  repository: dali20XX
+  repository: sorrento2026
 
 # Also generate pages with dates in the future
 future: true
@@ -42,9 +42,9 @@ banner: resort.png
 conference:
   draft: true
   hide_tentative: false
-  full_name: Data, Learning and Inference
-  short_name: DALI
-  name: Data, Learning and Inference
+  full_name: The Sorrento Meeting
+  short_name:
+  name: The Sorrento Meeting
   # set to True if the programme is draft only.
   draft: true
   # set to True to hide tentative speakers
@@ -58,19 +58,19 @@ conference:
   # Give details of the room in the venue here.  
   room:
   # Set the name of the venue (e.g. Caribe Hilton Hotel)  
-  venue:
+  venue: Grand Hotel Vesuvio
   # Give the url of the venue here.  
-  venue_url:
+  venue_url: https://www.vesuviosorrento.com/
   # Give the conference location in the form City, Country here.
-  location: 
-  year: 20XX
+  location: Sorrento, Italy
+  year: 2026
   # Give the instance of the conference here (e.g. 24th)
   instance:
   # Styling for DALI is "Workshop on"  
-  styling: Workshop on
+  #styling: Workshop on
   # Give the individual days that the conference will be held on here.
   dates:
-  - 20XX
+  - 2026
   -
   # Give the submission site details here.
   submission:
