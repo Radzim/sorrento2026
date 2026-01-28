@@ -26,6 +26,7 @@ plugins:
 - jekyll-remote-theme
 # change encoding for the generated output files to utf-8
 encoding: utf-8
+exclude: doc
 remote_theme: lawrennd/jekyll-theme
 style: dali
 
@@ -40,13 +41,11 @@ future: true
 banner: sorrento.png
 
 conference:
-  draft: true
+  draft: false
   hide_tentative: false
   full_name: The Sorrento Meeting
-  short_name:
+  short_name: Sorrento 2026
   name: The Sorrento Meeting
-  # set to True if the programme is draft only.
-  draft: true
   # set to True to hide tentative speakers
   hide_tentative: true
   # Place an image of venue in assets/images and give its name here
@@ -76,92 +75,52 @@ conference:
   # Give the submission site details here.
   submission:
     # Whether to show the submission site.
-    show:
+    show: false
     # The URL of the submission site.
     url:
     # The name of the submission site (e.g. Microsoft CMT Website)
     name:
-  #deadlines:
+  deadlines:
     # Fill in the key dates as below.
-    #- name: Submission server open
-    #  type: submission
-    #  date:
-    #- name: Paper submission deadline
-    #  type: submission
-    #  time:
-    #- name: Author response period starts
-    #  date:
-    #- name: Author response period ends
-    #  time:
-    #- name: Paper decision notifications
-    #  date:
-    #  type: decision
-    #- name: Deadline for camera-ready papers
-    #  time:
-    #- name: Registration deadline
-    #  date:
+    - name: Submission server open
+      type: submission
+      date:
+    - name: Paper submission deadline
+      type: submission
+      time: 2024-10-11
+    - name: Author response period starts
+      date:
+    - name: Author response period ends
+      time:
+    - name: Paper decision notifications
+      date: 2024-10-18
+      type: decision
+    - name: Deadline for camera-ready papers
+      time:
+    - name: Registration deadline
+      date:
   # List program chairs here.
-  #chairs:
-  #- type: Program Chairs
-  #  people:
-  #  - family:
-  #    given:
-  #    # Give their personal web page.
-  #    url:
-  #    institute:
-  #  - family:
-  #    given:
-  #    url:
-  #    institute:
-  ## If there's a local chair, or a general chair, you can add them here.
-  #- type: Local Chair
-  #  people:
-  #  - family:
-  #    given:
-  #    url:
-  #    institute:
-  ## You might want Workflow Chair(s) to assist with your submission system and the review process.
-  #- type: Workflow Chairs
-  #  people:
-  #  - family:
-  #    given:
-  #    url:
-  #    institute:
-  ## Your Publication Chair handles processing of proceedings.
-  #- type: Publication Chair
-  #  people:
-  #  - family:
-  #    given:
-  #    url:
-  #    institute:
-  ## Publicity Chairs often handle websites, social media etc.
-  #- type: Publicity Chair
-  #  people:
-  #  - family:
-  #    given:
-  #    url:
-  #    institute:
-  ## D&I Chairs look after initiatives to ensure an inclusive conference
-  #- type: D&I Chair
-  #  people:
-  #  - family:
-  #    given:
-  #    url:
-  #    institute:
-  ## Sponsorship chairs handle bringing in money from sponsors.
-  #- type: Sponsorship Chair
-  #  people:
-  #  - family:
-  #    given:
-  #    url:
-  #    institute:
-  #sponsors:
-  ## Sponsor name here
-  #- name:
-  # Sponsor URL here
-  #  url:
-  ## Sponsor name here
-  #- name:
-  ## Sponsor URL here
-  #  url:
-
+  chairs:
+  - type: General Chairs
+    people:
+    - family: Lawrence
+      given: Neil D.
+      # Give their personal web page.
+      url: https://inverseprobability.com
+      institute: University of Cambridge
+    - family: Sondermann
+      given: Hanni
+      institute: University of Cambridge
+    - family: Provist
+      given: Bianca
+      institute: University of Cambridge
+    - family: Cabrera-Jojoa
+      given: Christian
+      url: https://cabrerac.github.io/
+      institute: University of Cambridge
+  - type: Steering Committee
+    people:
+    - given: Neil D.
+      family: Lawrence
+      url: "http://inverseprobability.com"
+      institute: University of Cambridge
