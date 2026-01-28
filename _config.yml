@@ -27,8 +27,8 @@ plugins:
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 exclude: doc
-remote_theme: lawrennd/jekyll-theme
-#style: dali
+remote_theme: cabrerac/jekyll-theme-sorrento
+style: sorrento
 
 ghub:
   edit: true
