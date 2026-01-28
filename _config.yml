@@ -41,7 +41,7 @@ future: true
 banner: sorrento.png
 
 conference:
-  draft: false
+  draft: true
   hide_tentative: false
   full_name: Sorrento Meeting
   short_name: Sorrento 2026
