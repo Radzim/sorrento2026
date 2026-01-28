@@ -27,7 +27,7 @@ plugins:
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 remote_theme: lawrennd/jekyll-theme
-#style: dali
+style: dali
 
 ghub:
   edit: true
@@ -70,7 +70,8 @@ conference:
   #styling: Workshop on
   # Give the individual days that the conference will be held on here.
   dates:
-  - 30/01/2026
+  - 30/03/2026
+  - 31/03/2026
   - 01/04/2026
   # Give the submission site details here.
   submission:
