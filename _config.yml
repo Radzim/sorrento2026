@@ -26,7 +26,8 @@ plugins:
 - jekyll-remote-theme
 # change encoding for the generated output files to utf-8
 encoding: utf-8
-exclude: doc
+exclude:
+- doc
 remote_theme: cabrerac/jekyll-theme-sorrento
 style: sorrento
 
@@ -69,9 +70,9 @@ conference:
   #styling: Workshop on
   # Give the individual days that the conference will be held on here.
   dates:
-  - 30/03/2026
-  - 31/03/2026
-  - 01/04/2026
+  - 2026-03-30
+  - 2026-03-31
+  - 2026-04-01
   # Give the submission site details here.
   submission:
     # Whether to show the submission site.
@@ -111,7 +112,7 @@ conference:
     - family: Sondermann
       given: Hanni
       institute: University of Cambridge
-    - family: Provist
+    - family: Provost
       given: Bianca
       institute: University of Cambridge
     - family: Cabrera-Jojoa
