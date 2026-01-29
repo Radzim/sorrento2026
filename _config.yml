@@ -10,7 +10,7 @@ baseurl: "/sorrento2026" # the subpath of your site, e.g. /blog/
 # twitter name here
 twitter_username:
 
-github_username:  lawrennd
+github_username: lawrennd
 
 author:
   name: Sorrento Meeting
@@ -56,10 +56,10 @@ conference:
   hide_tentative: true
   # Place an image of venue in assets/images and give its name here
   image: conference-venue.png
-  proceedings:
+  #proceedings:
     # When proceedings are published add url here.
-    url:
-    show: false
+    #url:
+    #show: false
   # Give details of the room in the venue here.
   room:
   # Set the name of the venue (e.g. Caribe Hilton Hotel)
@@ -79,32 +79,32 @@ conference:
   - 2026-03-31
   - 2026-04-01
   # Give the submission site details here.
-  submission:
+  #submission:
     # Whether to show the submission site.
-    show: false
+    #show: false
     # The URL of the submission site.
-    url:
+    #url:
     # The name of the submission site (e.g. Microsoft CMT Website)
-    name:
-  deadlines:
+    #name:
+  #deadlines:
     # Fill in the key dates as below.
-    - name: Submission server open
-      type: submission
-      date:
-    - name: Paper submission deadline
-      type: submission
-      time: 2024-10-11
-    - name: Author response period starts
-      date:
-    - name: Author response period ends
-      time:
-    - name: Paper decision notifications
-      date: 2024-10-18
-      type: decision
-    - name: Deadline for camera-ready papers
-      time:
-    - name: Registration deadline
-      date:
+    #- name: Submission server open
+    #  type: submission
+    #  ate:
+    #- name: Paper submission deadline
+    #  type: submission
+    #  time: 2024-10-11
+    #- name: Author response period starts
+    #  date:
+    #- name: Author response period ends
+    #  time:
+    #- name: Paper decision notifications
+    #  date: 2024-10-18
+    #  type: decision
+    #- name: Deadline for camera-ready papers
+    #  time:
+    #- name: Registration deadline
+    #  date:
   # List program chairs here.
   chairs:
   - type: General Chairs
