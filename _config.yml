@@ -11,6 +11,7 @@ baseurl: "/sorrento2026" # the subpath of your site, e.g. /blog/
 twitter_username:
 
 github_username: lawrennd
+repository: lawrennd/sorrento2026
 
 author:
   name: Sorrento Meeting
