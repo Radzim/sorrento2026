@@ -17,13 +17,15 @@ title: Program
   <table>
     <thead>
       <tr>
-        <th>Date &amp; time</th>
+        <th>Date</th>
         <th>Event</th>
       </tr>
     </thead>
     <tbody>
       {% for post in programme_posts %}
+        {% assign day_name = post.date | date: "%A" %}
         {% assign row_date_time = post.programme_date_time | default: post.date | date: "%d %b" %}
+        {% assign row_date_time = day_name | append: " " | append: row_date_time %}
         {% assign row_title = post.programme_title | default: post.title %}
       <tr>
         <td>{{ row_date_time }}</td>
@@ -38,8 +40,12 @@ title: Program
       {% endfor %}
 
       {% for row in programme_extras %}
+        {% assign extra_date_time = row.date_time %}
+        {% if row.day %}
+          {% assign extra_date_time = row.day | append: " " | append: row.date_time %}
+        {% endif %}
       <tr>
-        <td>{{ row.date_time }}</td>
+        <td>{{ extra_date_time }}</td>
         <td>
           {% if row.url %}
             <a href="{{ row.url }}">{{ row.title }}</a>
