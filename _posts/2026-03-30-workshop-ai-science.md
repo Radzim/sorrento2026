@@ -4,6 +4,10 @@ layout: multitrack
 organizer_url: https://science.ai.cam.ac.uk/
 categories:
 - sorrento2026
+programme_show: true
+programme_order: "20"
+programme_date_time: "30 Mar"
+programme_title: "Workshops: AI for Science"
 organizers:
 - given: Bianca
   family: Provost

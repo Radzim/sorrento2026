@@ -9,42 +9,46 @@ title: Program
 
 {{ content }}
 
-{% if site.data.programme_overview %}
-<table>
-  <thead>
-    <tr>
-      <th>Date &amp; time</th>
-      <th>Event</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for row in site.data.programme_overview %}
-      {% if row.note %}
+{% if page.programme_overview %}
+  {% assign programme_posts = site.posts | where: "programme_show", true | sort: "programme_order" %}
+  {% assign programme_extras = page.programme_extras | sort: "order" %}
+  {% assign note_after = page.programme_note_after_order | default: "" %}
+
+  <table>
+    <thead>
       <tr>
-        <td colspan="2"><em>{{ row.note }}</em></td>
+        <th>Date &amp; time</th>
+        <th>Event</th>
       </tr>
-      {% else %}
-        {% assign row_url = "" %}
-        {% if row.url %}
-          {% assign row_url = row.url %}
-        {% elsif row.slug %}
-          {% assign matched_post = site.posts | where: "slug", row.slug | first %}
-          {% if matched_post %}
-            {% assign row_url = matched_post.url | prepend: site.baseurl %}
-          {% endif %}
+    </thead>
+    <tbody>
+      {% for post in programme_posts %}
+        {% assign row_date_time = post.programme_date_time | default: post.date | date: "%d %b" %}
+        {% assign row_title = post.programme_title | default: post.title %}
+      <tr>
+        <td>{{ row_date_time }}</td>
+        <td><a href="{{ post.url | prepend: site.baseurl }}">{{ row_title }}</a></td>
+      </tr>
+
+        {% if page.programme_note and post.programme_order == note_after %}
+      <tr>
+        <td colspan="2"><em>{{ page.programme_note }}</em></td>
+      </tr>
         {% endif %}
+      {% endfor %}
+
+      {% for row in programme_extras %}
       <tr>
         <td>{{ row.date_time }}</td>
         <td>
-          {% if row_url != "" %}
-            <a href="{{ row_url }}">{{ row.title }}</a>
+          {% if row.url %}
+            <a href="{{ row.url }}">{{ row.title }}</a>
           {% else %}
             {{ row.title }}
           {% endif %}
         </td>
       </tr>
-      {% endif %}
-    {% endfor %}
-  </tbody>
-</table>
+      {% endfor %}
+    </tbody>
+  </table>
 {% endif %}
