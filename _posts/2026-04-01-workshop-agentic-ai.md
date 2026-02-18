@@ -4,7 +4,7 @@ layout: singletrack
 organizer_url:
 categories:
 - sorrento2026
-programme_show: false
+programme_show: true
 programme_order: "50"
 programme_date_time: "01 Apr"
 programme_title: "Workshops: Agentic AI"
