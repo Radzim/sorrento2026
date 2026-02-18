@@ -1,6 +1,6 @@
 ---
-title: "Plenary Session - The Future of Machine Learning Publishing"
-tagline: Contributed talks and posters
+title: "The Future of Machine Learning Publishing"
+tagline: Contributed talks and discussion sessions
 layout: singletrack
 organizer_url:
 categories:
@@ -8,7 +8,13 @@ categories:
 programme_show: true
 programme_order: "30"
 programme_date_time: "31 Mar"
-programme_title: "Plenary Session - The Future of Machine Learning Publishing"
+programme_title: "The Future of Machine Learning Publishing"
+room: "TBD"
+organizers:
+- given: Neil D.
+  family: Lawrence
+- given: Christian
+  family: Cabrera
 # talks:
 # - title: "General Introduction "
 #   start: "09:30"

@@ -1,5 +1,6 @@
 ---
 title: "AI for science"
+tagline: Workshop
 layout: singletrack
 organizer_url: https://science.ai.cam.ac.uk/
 categories:
@@ -8,13 +9,13 @@ programme_show: true
 programme_order: "20"
 programme_date_time: "30 Mar"
 programme_title: "Workshops: AI for Science"
+room: "TBD"
 organizers:
 - given: Bianca
   family: Provost
 - given: Jessica
   family: Montgomery
-room: "TBD"
-show_abstracts: false
+# show_abstracts: false
 # talks:
 # - title: "Opening Remarks "
 #   start: "9:30"
@@ -104,5 +105,5 @@ show_abstracts: false
 ---
 
 <p>
-   Coming soon...
+   Schedule coming soon...
 </p>

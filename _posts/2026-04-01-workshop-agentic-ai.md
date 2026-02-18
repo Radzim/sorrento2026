@@ -1,5 +1,6 @@
 ---
 title: "Agentic AI"
+tagline: Workshop
 layout: singletrack
 organizer_url:
 categories:
@@ -8,13 +9,13 @@ programme_show: true
 programme_order: "50"
 programme_date_time: "01 Apr"
 programme_title: "Workshops: Agentic AI"
-#organizers:
-#- given: Morine
-#  family: Amutorine
+room: "TBD"
+organizers:
+- given: Radzim
+  family: Sendyka
 #- given: Jennifer
 #  family: Schooling
-room: "TBD"
-show_abstracts: false
+# show_abstracts: false
 # talks:
 # - title: "Session 1: The Ups: Highlighting real value from LLM-based initiatives "
 #   start: "09:30"
