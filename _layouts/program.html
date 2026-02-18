@@ -14,47 +14,43 @@ title: Program
   {% assign programme_extras = page.programme_extras | sort: "order" %}
   {% assign note_after = page.programme_note_after_order | default: "" %}
 
-  <table>
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Event</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for post in programme_posts %}
-        {% assign day_name = post.date | date: "%A" %}
-        {% assign row_date_time = post.programme_date_time | default: post.date | date: "%d %b" %}
-        {% assign row_date_time = day_name | append: " " | append: row_date_time %}
-        {% assign row_title = post.programme_title | default: post.title %}
-      <tr>
-        <td>{{ row_date_time }}</td>
-        <td><a href="{{ post.url | prepend: site.baseurl }}">{{ row_title }}</a></td>
-      </tr>
+  {% for post in programme_posts %}
+    {% assign day_name = post.date | date: "%A" %}
+    {% assign row_date_time = post.programme_date_time | default: post.date | date: "%d %b" %}
+    {% assign row_date_time = day_name | append: " " | append: row_date_time %}
+    {% assign row_title = post.programme_title | default: post.title %}
+    {% assign next_post = programme_posts[forloop.index] %}
+    {% assign current_order = post.programme_order | default: "0" %}
+    {% assign next_order = "" %}
+    {% if next_post %}
+      {% assign next_order = next_post.programme_order | default: "" %}
+    {% endif %}
 
-        {% if page.programme_note and post.programme_order == note_after %}
-      <tr>
-        <td colspan="2"><em>{{ page.programme_note }}</em></td>
-      </tr>
-        {% endif %}
-      {% endfor %}
+  <p>
+    <strong>{{ row_date_time }}</strong><br>
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ row_title }}</a>
+  </p>
 
-      {% for row in programme_extras %}
+    {% if page.programme_note and post.programme_order == note_after %}
+  <p><em>{{ page.programme_note }}</em></p>
+    {% endif %}
+
+    {% for row in programme_extras %}
+      {% assign row_order = row.order | default: "" %}
+      {% if row_order > current_order and (next_order == "" or row_order < next_order) %}
         {% assign extra_date_time = row.date_time %}
         {% if row.day %}
           {% assign extra_date_time = row.day | append: " " | append: row.date_time %}
         {% endif %}
-      <tr>
-        <td>{{ extra_date_time }}</td>
-        <td>
-          {% if row.url %}
-            <a href="{{ row.url }}">{{ row.title }}</a>
-          {% else %}
-            {{ row.title }}
-          {% endif %}
-        </td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+  <p>
+    <strong>{{ extra_date_time }}</strong><br>
+    {% if row.url %}
+      <a href="{{ row.url }}">{{ row.title }}</a>
+    {% else %}
+      {{ row.title }}
+    {% endif %}
+  </p>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
 {% endif %}
