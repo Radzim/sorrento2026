@@ -5,7 +5,7 @@ layout: singletrack
 organizer_url:
 categories:
 - sorrento2026
-programme_show: true
+programme_show: false
 programme_order: "30"
 programme_date_time: "31 Mar"
 programme_title: "Plenary Session - The Future of Machine Learning Publishing"

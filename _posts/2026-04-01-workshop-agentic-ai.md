@@ -1,20 +1,20 @@
 ---
 title: "Agentic AI"
-layout: multitrack
+layout: singletrack
 organizer_url:
 categories:
 - sorrento2026
-programme_show: true
+programme_show: false
 programme_order: "50"
 programme_date_time: "01 Apr"
-programme_title: "Agentic AI"
+programme_title: "Workshops: Agentic AI"
 #organizers:
 #- given: Morine
 #  family: Amutorine
 #- given: Jennifer
 #  family: Schooling
 room: "TBD"
-show_abstracts: true
+show_abstracts: false
 # talks:
 # - title: "Session 1: The Ups: Highlighting real value from LLM-based initiatives "
 #   start: "09:30"
