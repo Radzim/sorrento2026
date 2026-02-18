@@ -3,253 +3,48 @@ layout: page
 title: Program
 ---
 
-<style>
-  .program-notebook {
-    position: relative;
-    margin: 0 auto;
-    max-width: 900px;
-    padding: 1.5rem 1.5rem 2rem 2.5rem;
-    background: repeating-linear-gradient(
-      to bottom,
-      #fff,
-      #fff 28px,
-      #f0f0f0 29px
-    );
-    border: 1px solid #e6e6e6;
-    border-radius: 8px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
-  }
+{% if site.conference.draft %}
+<p><strong>Draft version</strong></p>
+{% endif %}
 
-  .program-notebook::before {
-    content: "";
-    position: absolute;
-    top: 1rem;
-    bottom: 1rem;
-    left: 1.25rem;
-    width: 2px;
-    background: #d0d0d0;
-  }
+{{ content }}
 
-  .program-draft {
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: #9b2c2c;
-    margin-bottom: 0.75rem;
-  }
-
-  .program-intro {
-    margin-bottom: 1.5rem;
-  }
-
-  .program-section {
-    margin-bottom: 2rem;
-  }
-
-  .program-section h2 {
-    margin: 1.5rem 0 1rem;
-    font-size: 1.4rem;
-  }
-
-  .program-day {
-    padding: 0.75rem 0 1.25rem;
-  }
-
-  .program-day-header {
-    display: grid;
-    gap: 0.2rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .program-date {
-    font-weight: 600;
-    letter-spacing: 0.02em;
-  }
-
-  .program-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-  }
-
-  .program-tagline,
-  .program-meta {
-    color: #555;
-    font-size: 0.95rem;
-  }
-
-  .program-list {
-    list-style: none;
-    padding: 0;
-    margin: 0.5rem 0 0;
-  }
-
-  .program-item {
-    display: grid;
-    grid-template-columns: 90px 1fr;
-    gap: 0.75rem;
-    padding: 0.35rem 0;
-  }
-
-  .program-time {
-    font-weight: 600;
-    color: #444;
-  }
-
-  .program-item-title {
-    font-weight: 600;
-  }
-
-  .program-item-speaker,
-  .program-item-abstract {
-    font-size: 0.95rem;
-    color: #444;
-  }
-
-  .program-empty {
-    color: #666;
-    font-style: italic;
-    margin-top: 0.25rem;
-  }
-
-  @media (max-width: 700px) {
-    .program-notebook {
-      padding: 1.25rem;
-    }
-
-    .program-notebook::before {
-      left: 0.85rem;
-    }
-
-    .program-item {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
-
-<div class="program-notebook">
-  {% if site.conference.draft %}
-    <div class="program-draft">Draft version</div>
-  {% endif %}
-
-  <div class="program-intro">
-    {{ content }}
-  </div>
-
-  {% assign multi_posts = site.posts | where: "layout", "multitrack" | sort: "date" %}
-  {% if multi_posts.size > 0 %}
-    <section class="program-section">
-      <h2>Workshops</h2>
-      {% for post in multi_posts %}
-        <article class="program-day">
-          <div class="program-day-header">
-            <div class="program-date">{{ post.date | date: "%A %d %B" }}</div>
-            <div class="program-title">{{ post.title }}</div>
-            {% if post.tagline %}
-              <div class="program-tagline">{{ post.tagline }}</div>
-            {% endif %}
-            {% if post.room %}
-              <div class="program-meta">Room: {{ post.room }}</div>
-            {% endif %}
-            {% if post.organizers %}
-              {% capture organizer_names %}{% for person in post.organizers %}{% if person.given %}{{ person.given }} {% endif %}{{ person.family }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
-              <div class="program-meta">Organizers: {{ organizer_names | strip }}</div>
-            {% endif %}
-          </div>
-
-          {% if post.talks %}
-            <ul class="program-list">
-              {% for talk in post.talks %}
-                {% assign talk_title = talk.title | default: "" | strip %}
-                {% assign talk_start = talk.start | default: "" | strip %}
-                {% assign talk_end = talk.end | default: "" | strip %}
-                {% if talk_title == "" and talk_start != "" %}
-                  {% assign talk_title = talk_start %}
-                  {% assign talk_time = "" %}
-                {% else %}
-                  {% if talk_start != "" and talk_end != "" %}
-                    {% assign talk_time = talk_start | append: "–" | append: talk_end %}
-                  {% elsif talk_start != "" %}
-                    {% assign talk_time = talk_start %}
-                  {% else %}
-                    {% assign talk_time = "" %}
-                  {% endif %}
-                {% endif %}
-
-                {% capture speaker_names %}{% if talk.author %}{% for person in talk.author %}{% if person.given %}{{ person.given }} {% endif %}{{ person.family }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}{% endcapture %}
-
-                <li class="program-item">
-                  <div class="program-time">{{ talk_time }}</div>
-                  <div>
-                    <div class="program-item-title">{{ talk_title }}</div>
-                    {% if speaker_names != "" %}
-                      <div class="program-item-speaker">{{ speaker_names | strip }}</div>
-                    {% endif %}
-                    {% if post.show_abstracts and talk.abstract %}
-                      <div class="program-item-abstract">{{ talk.abstract }}</div>
-                    {% endif %}
-                  </div>
-                </li>
-              {% endfor %}
-            </ul>
-          {% else %}
-            <div class="program-empty">Details coming soon.</div>
+{% if site.data.programme_overview %}
+<table>
+  <thead>
+    <tr>
+      <th>Date &amp; time</th>
+      <th>Event</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in site.data.programme_overview %}
+      {% if row.note %}
+      <tr>
+        <td colspan="2"><em>{{ row.note }}</em></td>
+      </tr>
+      {% else %}
+        {% assign row_url = "" %}
+        {% if row.url %}
+          {% assign row_url = row.url %}
+        {% elsif row.slug %}
+          {% assign matched_post = site.posts | where: "slug", row.slug | first %}
+          {% if matched_post %}
+            {% assign row_url = matched_post.url | prepend: site.baseurl %}
           {% endif %}
-        </article>
-      {% endfor %}
-    </section>
-  {% endif %}
-
-  {% assign single_posts = site.posts | where: "layout", "singletrack" | sort: "date" %}
-  {% if single_posts.size > 0 %}
-    <section class="program-section">
-      <h2>Full schedule</h2>
-      {% for post in single_posts %}
-        <article class="program-day">
-          <div class="program-day-header">
-            <div class="program-date">{{ post.date | date: "%A %d %B" }}</div>
-            <div class="program-title">{{ post.title }}</div>
-            {% if post.tagline %}
-              <div class="program-tagline">{{ post.tagline }}</div>
-            {% endif %}
-          </div>
-
-          {% if post.talks %}
-            <ul class="program-list">
-              {% for talk in post.talks %}
-                {% assign talk_title = talk.title | default: "" | strip %}
-                {% assign talk_start = talk.start | default: "" | strip %}
-                {% assign talk_end = talk.end | default: "" | strip %}
-                {% if talk_title == "" and talk_start != "" %}
-                  {% assign talk_title = talk_start %}
-                  {% assign talk_time = "" %}
-                {% else %}
-                  {% if talk_start != "" and talk_end != "" %}
-                    {% assign talk_time = talk_start | append: "–" | append: talk_end %}
-                  {% elsif talk_start != "" %}
-                    {% assign talk_time = talk_start %}
-                  {% else %}
-                    {% assign talk_time = "" %}
-                  {% endif %}
-                {% endif %}
-
-                {% capture speaker_names %}{% if talk.author %}{% for person in talk.author %}{% if person.given %}{{ person.given }} {% endif %}{{ person.family }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}{% endcapture %}
-
-                <li class="program-item">
-                  <div class="program-time">{{ talk_time }}</div>
-                  <div>
-                    <div class="program-item-title">{{ talk_title }}</div>
-                    {% if speaker_names != "" %}
-                      <div class="program-item-speaker">{{ speaker_names | strip }}</div>
-                    {% endif %}
-                  </div>
-                </li>
-              {% endfor %}
-            </ul>
+        {% endif %}
+      <tr>
+        <td>{{ row.date_time }}</td>
+        <td>
+          {% if row_url != "" %}
+            <a href="{{ row_url }}">{{ row.title }}</a>
           {% else %}
-            <div class="program-empty">Details coming soon.</div>
+            {{ row.title }}
           {% endif %}
-        </article>
-      {% endfor %}
-    </section>
-  {% endif %}
-</div>
+        </td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
