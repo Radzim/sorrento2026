@@ -131,3 +131,7 @@ conference:
       family: Lawrence
       url: "http://inverseprobability.com"
       institute: University of Cambridge
+    - given: Jessica
+      family: Montgomery
+      url: https://www.ai.cam.ac.uk/people/jess-montgomery/
+      institute: University of Cambridge
