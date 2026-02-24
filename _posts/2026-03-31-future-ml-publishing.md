@@ -15,62 +15,44 @@ organizers:
   family: Lawrence
 - given: Christian
   family: Cabrera
-# talks:
-# - title: "General Introduction "
-#   start: "09:30"
-#   end: "9:35"
-#   author:
-#   - given: Neil
-#     family: Lawrence
-# - title: "The Current and Future Impact of AI in Life Sciences "
-#   start: "09:45"
-#   end: "10:20"
-#   author:
-#   - given: Diego
-#     family: di Bernardo
-# - title: "AI By Design in Drug Discovery and Development "
-#   start: "10:20"
-#   end: "11:00"
-#   author:
-#   - given: Tom
-#     family: Diethe
-# - title: "Coffee Break"
-#   start: "11:00"
-#   end: "11:30"
-# - title: "Reparametrization Invariance in Bayesian approximations "
-#   start: "11:30"
-#   end: "12:00"
-#   author:
-#   - given: Søren
-#     family: Hauberg
-# - title: "LLMs and the Communication of Non-quantifiable Uncertainty "
-#   start: "12:00"
-#   end: "12:30"
-#   author:
-#   - given: Sylvie
-#     family: Delacroix
-# - title: "(S)elective Access to AI Assistance "
-#   start: "12:30"
-#   end: "13:00"
-#   author:
-#   - given: Umang
-#     family: Bhatt
-# - title: "Fireside chat - Past, Present and Future of AI from a Google DeepMind perspective "
-#   start: "13:00"
-#   end: "13:30"
-#   author:
-#   - given: Zoubin
-#     family: Ghahramani
-# - title: "Lunch"
-#   start: "13:30"
-#   end: "14:30"
-# - title: "Poster Session"
-#   start: "14:30"
-#   end: "16:30"
-# - title: "Dinner"
-#   start: "19:00"
+talks:
+- title: "Welcome and introduction"
+  start: "09:30"
+  end: "09:45"
+- title: "Interest Is All You Need: Rethinking Peer Review for ML Conferences"
+  start: "09:50"
+  end: "10:20"
+  author:
+  - given: Lars
+    family: Kotthoff
+- title: "Peer Review in the Age of LLMs: Evidence and Interventions from AISTATS 2026"
+  start: "10:25"
+  end: "10:55"
+  author:
+  - given: Arno
+    family: Solin
+- title: "Coffee Break"
+  start: "11:00"
+  end: "11:30"
+- title: "Group Discussion on the Future of Peer Review"
+  start: "11:35"
+  end: "12:25"
+- title: "Lunch Break"
+  start: "12:30"
+  end: "14:30"
+- title: "Imprecise Markov Semigroups and Their Ergodicity: A Testbed for AI-Assisted Publishing Best Practices"
+  start: "14:35"
+  end: "15:05"
+  author:
+  - given: Michele
+    family: Caprio
+- title: "From LaTeX to Pubmed"
+  start: "15:05"
+  end: "15:35"
+  author:
+  - given: Hoel
+    family: Kervadec
+- title: "Group Discussion on AI-Assisted Publishing"
+  start: "15:40"
+  end: "16:30"
 ---
-
-<p>
-   Schedule coming soon...
-</p>
