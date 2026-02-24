@@ -23,8 +23,10 @@ talks:
   author:
   - given: Neil
     family: Lawrence
+    affiliation: University of Cambridge
   - given: Jessica
     family: Montgomery
+    affiliation: University of Cambridge
 - title: "Keynote 1"
   start: "9:35"
   end: "10:15"
@@ -62,6 +64,7 @@ talks:
   author:
   - given: Neil
     family: Lawrence
+    affiliation: University of Cambridge
 - title: "Close of session"
   start: "16:30"
   end: "16:30"
