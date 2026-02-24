@@ -25,12 +25,14 @@ talks:
   author:
   - given: Lars
     family: Kotthoff
+    affiliation: University of St Andrews and Sorbonne Université
 - title: "Peer review in the age of LLMs: evidence and interventions from AISTATS 2026"
   start: "10:25"
   end: "10:55"
   author:
   - given: Arno
     family: Solin
+    affiliation: Aalto University
 - title: "Coffee Break"
   start: "11:00"
   end: "11:30"
@@ -46,12 +48,14 @@ talks:
   author:
   - given: Michele
     family: Caprio
+    affiliation: The University of Manchester
 - title: "From LaTeX to Pubmed"
   start: "15:05"
   end: "15:35"
   author:
   - given: Hoel
     family: Kervadec
+    affiliation: University of Amsterdam
 - title: "Group discussion on AI-assisted publishing"
   start: "15:40"
   end: "16:30"

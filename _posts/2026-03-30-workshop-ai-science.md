@@ -52,6 +52,7 @@ talks:
   author:
   - given: Boris
     family: Bolliet
+    affiliation: University of Cambridge
 - title: "Working Session 2: Design the Raspberry Pi for Scientific AI Agents"
   start: "15:00"
   end: "15:45"
