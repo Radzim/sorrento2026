@@ -36,7 +36,7 @@ talks:
 - title: "Coffee Break"
   start: "11:00"
   end: "11:30"
-- title: "Group discussion on the future of peer review"
+- title: "Group discussion on the future of peer reviewing"
   start: "11:35"
   end: "12:25"
 - title: "Lunch Break"
