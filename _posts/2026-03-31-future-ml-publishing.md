@@ -19,13 +19,13 @@ talks:
 - title: "Welcome and introduction"
   start: "09:30"
   end: "09:45"
-- title: "Interest Is All You Need: Rethinking Peer Review for ML Conferences"
+- title: "Interest is all you need: rethinking peer review for ML conferences"
   start: "09:50"
   end: "10:20"
   author:
   - given: Lars
     family: Kotthoff
-- title: "Peer Review in the Age of LLMs: Evidence and Interventions from AISTATS 2026"
+- title: "Peer review in the age of LLMs: evidence and interventions from AISTATS 2026"
   start: "10:25"
   end: "10:55"
   author:
@@ -34,13 +34,13 @@ talks:
 - title: "Coffee Break"
   start: "11:00"
   end: "11:30"
-- title: "Group Discussion on the Future of Peer Review"
+- title: "Group discussion on the future of peer review"
   start: "11:35"
   end: "12:25"
 - title: "Lunch Break"
   start: "12:30"
   end: "14:30"
-- title: "Imprecise Markov Semigroups and Their Ergodicity: A Testbed for AI-Assisted Publishing Best Practices"
+- title: "Imprecise markov semigroups and their ergodicity: a testbed for AI-assisted publishing best practices"
   start: "14:35"
   end: "15:05"
   author:
@@ -52,7 +52,7 @@ talks:
   author:
   - given: Hoel
     family: Kervadec
-- title: "Group Discussion on AI-Assisted Publishing"
+- title: "Group discussion on AI-assisted publishing"
   start: "15:40"
   end: "16:30"
 ---
