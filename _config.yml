@@ -125,6 +125,9 @@ conference:
       given: Christian
       url: https://cabrerac.github.io/
       institute: University of Cambridge
+    - family: Sendyka
+      given: Radzim
+      institute: University of Cambridge
   - type: Steering Committee
     people:
     - given: Neil D.
@@ -135,3 +138,4 @@ conference:
       family: Montgomery
       url: https://www.ai.cam.ac.uk/people/jess-montgomery/
       institute: University of Cambridge
+
