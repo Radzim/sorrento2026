@@ -34,16 +34,23 @@ talks:
    start: "11:30"
    end: "13:00"
    author:
-   - given: Neil D.
-     family: Lawrence
+   - given: Ryan
+     family: Daniels
+   - given: Radzim
+     family: Sendyka
+   - given: Finley
+     family: Griffin
  - title: "Lunch Break"
    start: "13:00"
    end: "14:30"
- - title: "Panel Discussion"
+ - title: "Talk"
    start: "14:30"
-   end: "15:15"
+   end: "14:45"
+ - title: "Panel Discussion"
+   start: "14:45"
+   end: "15:20"
  - title: "Closing Remarks"
-   start: "15:15"
+   start: "15:20"
    end: "15:30"
    author:
    - given: Neil D.
