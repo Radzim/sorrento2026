@@ -29,6 +29,9 @@ title: Program
   <p>
     <strong>{{ row_date_time }}</strong><br>
     <a href="{{ post.url | prepend: site.baseurl }}">{{ row_title }}</a>
+    {% if post.organizers %}
+    <br>Organisers: {% assign authors = post.organizers %}{% include listauthors.html details=true %}
+    {% endif %}
   </p>
 
     {% if page.programme_note and post.programme_order == note_after %}
