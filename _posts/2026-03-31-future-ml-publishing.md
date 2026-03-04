@@ -13,6 +13,8 @@ room: "TBD"
 organizers:
 - given: Neil D.
   family: Lawrence
+- given: Katherine
+  family: Gorman
 - given: Christian
   family: Cabrera
 show_abstracts: true
