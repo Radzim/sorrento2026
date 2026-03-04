@@ -49,7 +49,7 @@ talks:
 - title: "Lunch Break"
   start: "12:30"
   end: "14:30"
-- title: "Imprecise markov semigroups and their ergodicity: a testbed for AI-assisted publishing best practices"
+- title: "Imprecise Markov semigroups and their ergodicity: a testbed for AI-assisted publishing best practices"
   start: "14:35"
   end: "15:05"
   speaker: Michele Caprio

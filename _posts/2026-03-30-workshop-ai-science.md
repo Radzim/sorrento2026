@@ -30,13 +30,13 @@ talks:
 - title: "Keynote 1"
   start: "9:35"
   end: "10:15"
-- title: "Short talk"
+- title: "Invited short talk"
   start: "10:15"
   end: "10:30"
-- title: "Short talk"
+- title: "Invited short talk"
   start: "10:30"
   end: "10:45"
-- title: "Short talk"
+- title: "Invited short talk"
   start: "10:45"
   end: "11:00"
 - title: "Coffee"
@@ -48,13 +48,9 @@ talks:
 - title: "Lunch"
   start: "13:00"
   end: "14:30"
-- title: "Keynote 2: Agents for scientific discovery"
+- title: "Keynote 2"
   start: "14:30"
   end: "15:00"
-  author:
-  - given: Boris
-    family: Bolliet
-    affiliation: University of Cambridge
 - title: "Working Session 2: Design the Raspberry Pi for Scientific AI Agents"
   start: "15:00"
   end: "15:45"
