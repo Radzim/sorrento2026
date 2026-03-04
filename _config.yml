@@ -121,6 +121,14 @@ conference:
     - family: Provost
       given: Bianca
       institute: University of Cambridge
+    - family: Finley
+      given: Griffin
+      url: https://www.cst.cam.ac.uk/people/flsg2
+      institute: University of Cambridge
+    - family: Sendyka
+      given: Radzim
+      url: https://science.ai.cam.ac.uk/team/radzim-sendyka
+      institute: University of Cambridge
     - family: Cabrera-Jojoa
       given: Christian
       url: https://cabrerac.github.io/
