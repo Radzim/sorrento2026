@@ -71,7 +71,7 @@ talks:
 - title: "Lunch"
   start: "13:00"
   end: "14:30"
-- title: "Keynote 2"
+- title: "Keynote 2 (TBC)"
   start: "14:30"
   end: "15:00"
 - title: "Working Session 2: Design the Raspberry Pi for Scientific AI Agents"
