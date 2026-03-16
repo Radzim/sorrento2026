@@ -9,7 +9,7 @@ programme_show: true
 programme_order: "20"
 programme_date_time: "30 Mar"
 programme_title: "Workshops: AI for Science"
-room: "TBD"
+room: "Turchese"
 organizers:
 - given: Bianca
   family: Provost
@@ -91,7 +91,7 @@ talks:
   - given: TBC
     family: TBC
     affiliation: TBC
-  
+
 - title: "Close of session"
   start: "16:30"
   end: "16:30"

@@ -9,7 +9,7 @@ programme_show: true
 programme_order: "50"
 programme_date_time: "01 Apr"
 programme_title: "Workshops: Agentic AI"
-room: "TBD"
+room: "Turchese"
 organizers:
 - given: Radzim
   family: Sendyka
@@ -62,9 +62,9 @@ talks:
    - given: Zhenwen
      family: Dai
    - given: TBD
-     family: 
+     family:
    - given: TBD
-     family: 
+     family:
  - title: "Closing Remarks"
    start: "15:45"
    end: "16:00"
