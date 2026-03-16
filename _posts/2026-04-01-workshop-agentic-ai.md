@@ -51,7 +51,7 @@ talks:
    end: "14:30"
  - title: "Talks by invited speakers"
    start: "14:30"
-   end: "11:00"
+   end: "15:00"
    abstract: "Talks by researchers working with Agentic AI"
  - title: "Panel Discussion"
    start: "15:00"
@@ -61,10 +61,10 @@ talks:
      family: Vasilaki
    - given: Zhenwen
      family: Dai
-   - given: Ryan
-     family: Daniels
-   - given: Boris
-     family: Bolliet
+   - given: TBD
+     family: 
+   - given: TBD
+     family: 
  - title: "Closing Remarks"
    start: "15:45"
    end: "16:00"
