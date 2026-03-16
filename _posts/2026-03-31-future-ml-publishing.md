@@ -9,7 +9,7 @@ programme_show: true
 programme_order: "30"
 programme_date_time: "31 Mar"
 programme_title: "The Future of Machine Learning Publishing"
-room: "TBD"
+room: "Turchese"
 organizers:
 - given: Neil D.
   family: Lawrence
