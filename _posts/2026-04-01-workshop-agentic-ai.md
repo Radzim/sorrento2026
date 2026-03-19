@@ -23,15 +23,18 @@ talks:
    author:
    - given: Neil D.
      family: Lawrence
- - title: "The Denario project"
-   start: "09:40"
-   end: "10:20"
+ - title: "Talks by invited speakers"
+   start: "9:40"
+   end: "11:00"
    author:
    - given: Boris
      family: Bolliet
- - title: "Talks by invited speakers"
-   start: "10:20"
-   end: "11:00"
+   - given: Yuke
+     family: Zhu
+   - given: Stephanie
+     family: Hyland
+   - given: Ryan
+     family: Daniels
    abstract: "Talks by researchers working with Agentic AI"
  - title: "Coffee Break"
    start: "11:00"
@@ -51,11 +54,14 @@ talks:
    end: "14:30"
  - title: "Talks by invited speakers"
    start: "14:30"
-   end: "15:00"
+   end: "14:50"
+   author:
+   - given: Brent
+     family: Mittelstadt
    abstract: "Talks by researchers working with Agentic AI"
  - title: "Panel Discussion"
-   start: "15:00"
-   end: "15:45"
+   start: "14:50"
+   end: "15:35"
    author:
    - given: Eleni
      family: Vasilaki
@@ -66,8 +72,8 @@ talks:
    - given: TBD
      family:
  - title: "Closing Remarks"
-   start: "15:45"
-   end: "16:00"
+   start: "15:35"
+   end: "15:45"
    author:
    - given: Neil D.
      family: Lawrence
