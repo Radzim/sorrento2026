@@ -88,9 +88,9 @@ talks:
   - given: Lydia
     family: France
     affiliation: University of Oxford & Alan Turing Institute
-  - given: TBC
-    family: TBC
-    affiliation: TBC
+  - given: Stephanie
+    family: Hyland
+    affiliation: Microsoft Research
 
 - title: "Close of session"
   start: "16:30"
