@@ -23,6 +23,8 @@ talks:
    author:
    - given: Neil D.
      family: Lawrence
+   - given: Jessica
+     family: Montgomery
  - title: "Talks by invited speakers"
    start: "9:40"
    end: "11:00"
@@ -54,27 +56,29 @@ talks:
    end: "14:30"
  - title: "Talks by invited speakers"
    start: "14:30"
-   end: "14:50"
+   end: "15:10"
    author:
    - given: Brent
      family: Mittelstadt
+   - given: Christian
+     family: Cabrera
    abstract: "Talks by researchers working with Agentic AI"
  - title: "Panel Discussion"
-   start: "14:50"
-   end: "15:35"
+   start: "15:10"
+   end: "15:55"
    author:
    - given: Eleni
      family: Vasilaki
    - given: Zhenwen
      family: Dai
-   - given: TBD
-     family:
-   - given: TBD
-     family:
+   - given: Boris
+     family: Bolliet
  - title: "Closing Remarks"
-   start: "15:35"
-   end: "15:45"
+   start: "15:55"
+   end: "16:00"
    author:
    - given: Neil D.
      family: Lawrence
+   - given: Jessica
+     family: Montgomery
 ---
