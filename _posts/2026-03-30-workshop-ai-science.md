@@ -46,15 +46,15 @@ talks:
     family: Hardgrove
     affiliation: Georgia Institute of Technology
 - title: "Scientific Inference with Diffusion Models"
-  start: "10:15"
-  end: "10:30"
+  start: "10:30"
+  end: "10:45"
   author:
-  - given: Stephen
+  - given: Stephan
     family: Mandt
     affiliation: University of California, Irvine
 - title: "From Hype to Hypotheses: Why AI-for-Science Is Hard - and What It Takes to Make It Work"
-  start: "10:15"
-  end: "10:30"
+  start: "10:45"
+  end: "11:00"
   author:
   - given: Tegan
     family: Emerson
@@ -69,15 +69,12 @@ talks:
 - title: "Lunch"
   start: "13:00"
   end: "14:30"
-- title: "Keynote 2 (TBC)"
-  start: "14:30"
-  end: "15:00"
 - title: "Working Session 2: Design the Raspberry Pi for Scientific AI Agents"
-  start: "15:00"
-  end: "15:45"
+  start: "14:30"
+  end: "15:05"
 - title: "Panel discussion: Are we heading for a paradigm shift in science through AI?"
-  start: "15:45"
-  end: "16:30"
+  start: "15:05"
+  end: "15:55"
   author:
   - given: Neil
     family: Lawrence
@@ -92,7 +89,14 @@ talks:
     family: Hyland
     affiliation: Microsoft Research
 
-- title: "Close of session"
-  start: "16:30"
-  end: "16:30"
+- title: "Closing Remarks"
+  start: "15:55"
+  end: "16:00"
+  author:
+  - given: Neil
+    family: Lawrence
+    affiliation: University of Cambridge
+  - given: Jessica
+    family: Montgomery
+    affiliation: University of Cambridge
 ---
