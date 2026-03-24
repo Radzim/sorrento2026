@@ -35,14 +35,20 @@ talks:
      family: Zhu
    - given: Stephanie
      family: Hyland
-   - given: Ryan
-     family: Daniels
    abstract: "Talks by researchers working with Agentic AI"
  - title: "Coffee Break"
    start: "11:00"
    end: "11:30"
- - title: "Hands-on Agentic AI Workshop and Group Discussion"
+ - title: "Talks by invited speakers"
    start: "11:30"
+   end: "12:15"
+   author:
+   - given: 
+     family: TBD
+   - given: Ryan
+     family: Daniels
+ - title: "Hands-on Agentic AI Workshop and Group Discussion"
+   start: "12:15"
    end: "13:00"
    author:
    - given: Radzim
@@ -56,7 +62,7 @@ talks:
    end: "14:30"
  - title: "Talks by invited speakers"
    start: "14:30"
-   end: "15:10"
+   end: "15:15"
    author:
    - given: Brent
      family: Mittelstadt
@@ -64,8 +70,8 @@ talks:
      family: Cabrera
    abstract: "Talks by researchers working with Agentic AI"
  - title: "Panel Discussion"
-   start: "15:10"
-   end: "15:55"
+   start: "15:15"
+   end: "16:00"
    author:
    - given: Eleni
      family: Vasilaki
