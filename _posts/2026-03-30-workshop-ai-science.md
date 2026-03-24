@@ -39,27 +39,26 @@ talks:
         My research seeks to understand how animals perceive their environment, how they transform sensory input to behavioural output, and how they flexibly adapt their behavioural strategies in response to changes in the environmental or context. I am currently focused on understanding how coral reef fish can use visual information to navigate, and how they can move through complex terrain even under low visibility conditions. By identifying the navigational mechanisms that underpin this behaviour, I aim to find lightweight and efficient navigation algorithms that can be applied to underwater autonomous vehicles. In this talk, I will share my research on the visual and cognitive abilities of fish, demonstrate how advances in AI are expanding the scope of questions behavioural biologists can tackle, and explore how insights from natural intelligence might inspire the design of artificial systems.
 
 - title: "Benchmarking for Experiments in Inference across Dynamic Spatial Boundaries: Water Quality"
-  start: "10:15"
-  end: "10:30"
+  start: "10:30"
+  end: "10:45"
   author:
   - given: Claire
     family: Hardgrove
-    affiliation: Georgia Institute of Technology
+    affiliation:
 - title: "Scientific Inference with Diffusion Models"
-  start: "10:30"
-  end: "10:45"
+  start: "10:45"
+  end: "11:00"
   author:
   - given: Stephan
     family: Mandt
     affiliation: University of California, Irvine
 - title: "From Hype to Hypotheses: Why AI-for-Science Is Hard - and What It Takes to Make It Work"
-  start: "10:45"
-  end: "11:00"
+  start: "10:15"
+  end: "10:30"
   author:
   - given: Tegan
     family: Emerson
     affiliation: Pacific Northwest National Laboratory
-
 - title: "Coffee"
   start: "11:00"
   end: "11:30"
@@ -69,15 +68,24 @@ talks:
 - title: "Lunch"
   start: "13:00"
   end: "14:30"
-- title: "Working Session 2: Design the Raspberry Pi for Scientific AI Agents"
+- title: "Fireside chat on the Raspberry Pi for Scientific AI Agents"
   start: "14:30"
-  end: "15:05"
-- title: "Panel discussion: Are we heading for a paradigm shift in science through AI?"
-  start: "15:05"
-  end: "15:55"
+  end: "14:45"
   author:
+  - given: Katherine
+    family: Gorman (Moderator)
   - given: Neil
     family: Lawrence
+    affiliation: University of Cambridge
+- title: "Working Session 2: Design the Raspberry Pi for Scientific AI Agents"
+  start: "14:45"
+  end: "15:15"
+- title: "Panel discussion: Are we heading for a paradigm shift in science through AI?"
+  start: "15:15"
+  end: "16:15"
+  author:
+  - given: Ryan
+    family: Daniels
     affiliation: University of Cambridge
   - given: Arno
     family: Solin
@@ -88,15 +96,4 @@ talks:
   - given: Stephanie
     family: Hyland
     affiliation: Microsoft Research
-
-- title: "Closing Remarks"
-  start: "15:55"
-  end: "16:00"
-  author:
-  - given: Neil
-    family: Lawrence
-    affiliation: University of Cambridge
-  - given: Jessica
-    family: Montgomery
-    affiliation: University of Cambridge
 ---
