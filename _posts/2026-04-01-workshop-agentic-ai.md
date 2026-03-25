@@ -15,76 +15,120 @@ organizers:
   family: Sendyka
 - given: Ryan
   family: Daniels
-show_abstracts: false
+show_abstracts: true
 talks:
- - title: "Welcome and introduction"
-   start: "09:30"
-   end: "9:40"
-   author:
-   - given: Neil D.
-     family: Lawrence
-   - given: Jessica
-     family: Montgomery
- - title: "Talks by invited speakers"
-   start: "9:40"
-   end: "11:00"
-   author:
-   - given: Boris
-     family: Bolliet
-   - given: Yuke
-     family: Zhu
-   - given: Stephanie
-     family: Hyland
-   abstract: "Talks by researchers working with Agentic AI"
- - title: "Coffee Break"
-   start: "11:00"
-   end: "11:30"
- - title: "Talks by invited speakers"
-   start: "11:30"
-   end: "12:15"
-   author:
-   - given: 
-     family: TBD
-   - given: Ryan
-     family: Daniels
- - title: "Hands-on Agentic AI Workshop and Group Discussion"
-   start: "12:15"
-   end: "13:00"
-   author:
-   - given: Radzim
-     family: Sendyka
-   - given: Ryan
-     family: Daniels
-   - given: Fin
-     family: Griffin
- - title: "Lunch Break"
-   start: "13:00"
-   end: "14:30"
- - title: "Talks by invited speakers"
-   start: "14:30"
-   end: "15:15"
-   author:
-   - given: Brent
-     family: Mittelstadt
-   - given: Christian
-     family: Cabrera
-   abstract: "Talks by researchers working with Agentic AI"
- - title: "Panel Discussion"
-   start: "15:15"
-   end: "16:00"
-   author:
-   - given: Eleni
-     family: Vasilaki
-   - given: Zhenwen
-     family: Dai
-   - given: Boris
-     family: Bolliet
- - title: "Closing Remarks"
-   start: "15:55"
-   end: "16:00"
-   author:
-   - given: Neil D.
-     family: Lawrence
-   - given: Jessica
-     family: Montgomery
+- title: "Welcome and introduction"
+  start: "09:30"
+  end: "09:40"
+  author:
+  - given: Neil D.
+    family: Lawrence
+  - given: Jessica
+    family: Montgomery
+- title: "Agents for Scientific Discovery: A Parallel Universe?"
+  start: "09:40"
+  end: "10:00"
+  speaker: Boris Bolliet
+  author:
+  - given: Boris
+    family: Bolliet
+    affiliation: University of Cambridge
+  abstract: |
+    We will present how multi-agent systems can be designed to perform scientific research. We will show how we are using them to solve hard open-ended research problems, in some cases outperforming humans operating without them. The agents and systems we develop act as a force multiplier and generate ideas that are unknown to us, but it is important to emphasize that they do not operate in isolation. They augment the humans; they do not replace them. We will then lay out a vision of self-organising AI scientists operating in a parallel cyber space, co-evolving science alongside humans.
+- title: "Building Generalist Humanoid Robots"
+  start: "10:05"
+  end: "10:25"
+  speaker: Yuke Zhu
+  author:
+  - given: Yuke
+    family: Zhu
+    affiliation: NVIDIA Research, University of Texas at Austin
+  abstract: |
+    In an era of rapid AI progress, leveraging accelerated computing and big data has unlocked new possibilities to develop generalist AI models. As AI systems like ChatGPT showcase remarkable performance in the digital realm, we are compelled to ask: Can we achieve similar breakthroughs in the physical world — to create generalist humanoid robots capable of performing everyday tasks? In this talk, I will present our data-centric research principles and approaches for building general-purpose robot autonomy in the open world. I will discuss our recent works leveraging real-world, synthetic, and web data for training robotic foundation models. By combining these advances with cutting-edge developments in humanoid robotics, I will outline a roadmap for the next generation of autonomous robots.
+# - title: "TBD"
+#  start: "10:30"
+#  end: "10:50"
+#  speaker: Stephanie Hyland
+#  author:
+#   - given: Stephanie
+#     family: Hyland
+#    affiliation: Microsoft Research
+#  abstract: |
+#    TBD
+- title: "Coffee Break"
+  start: "11:00"
+  end: "11:30"
+- title: "Talk by Özgür Şimşek"
+  start: "11:30"
+  end: "11:50"
+  speaker: Özgür Şimşek
+  author:
+  - given: Özgür
+    family: Şimşek
+    affiliation: University of Bath
+  abstract: |
+   TBD
+- title: "Open Source LLMs for the Research Community"
+  start: "11:50"
+  end: "12:10"
+  speaker: Ryan Daniels
+  author:
+  - given: Ryan
+    family: Daniels
+    affiliation: University of Cambridge
+  abstract: |
+    Modern AI research faces a crisis of dependency. As we increasingly rely on commercial APIs and closed-source models, the scientific community risks undermining the reproducibility, interpretability, and sustainability of its work. This talk argues for a pivot: moving from viewing AI as a tool we rent, to viewing it as infrastructure we control. We present a case study in building this "sovereign stack." We demonstrate how we architected a server to operate as a shared utility for the academic community. But independence brings complexity. We candidly explore the significant engineering friction encountered in moving from raw hardware to a production-ready service. We discuss the realities of hardening the attack surface, managing API keys, and the intricate balancing act of optimizing throughput, latency, and VRAM usage against massive context windows. By releasing our full software stack, monitoring configurations, and Architecture Decision Records (ADRs), we aim to "outsource the tedium" of these discoveries. This talk serves as a blueprint for how institutions can build secure, scalable, and open AI infrastructure that keeps science reproducible and data secure.
+- title: "Hands-on Agentic AI Workshop and Group Discussion"
+  start: "12:15"
+  end: "13:00"
+  author:
+  - given: Radzim
+    family: Sendyka
+  - given: Ryan
+    family: Daniels
+  - given: Fin
+    family: Griffin
+- title: "Lunch Break"
+  start: "13:00"
+  end: "14:30"
+- title: "Talk by Brent Mittelstadt"
+  start: "14:30"
+  end: "14:50"
+  speaker: Brent Mittelstadt
+  author:
+  - given: Brent
+    family: Mittelstadt
+    affiliation: University of Oxford
+  abstract: |
+   TBD
+- title: "Talk by Christian Cabrera"
+  start: "14:50"
+  end: "15:10"
+  speaker: Christian Cabrera
+  author:
+  - given: Christian
+    family: Cabrera
+    affiliation: University of Cambridge
+  abstract: |
+   TBD
+- title: "Panel Discussion"
+  start: "15:15"
+  end: "16:00"
+  author:
+  - given: Neil D.
+    family: Lawrence
+  - given: Eleni
+    family: Vasilaki
+  - given: Zhenwen
+    family: Dai
+  - given: Boris
+    family: Bolliet
+- title: "Closing Remarks"
+  start: "16:00"
+  end: "16:05"
+  author:
+  - given: Neil D.
+    family: Lawrence
+  - given: Jessica
+    family: Montgomery
 ---
