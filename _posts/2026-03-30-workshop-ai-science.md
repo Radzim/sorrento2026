@@ -27,7 +27,6 @@ talks:
   - given: Jessica
     family: Montgomery
     affiliation: University of Cambridge
-
 - title: "Keynote: Animal Behaviour as Algorithms"
   start: "9:35"
   end: "10:15"
@@ -37,7 +36,13 @@ talks:
     affiliation: University of Oxford
   abstract: |
         My research seeks to understand how animals perceive their environment, how they transform sensory input to behavioural output, and how they flexibly adapt their behavioural strategies in response to changes in the environmental or context. I am currently focused on understanding how coral reef fish can use visual information to navigate, and how they can move through complex terrain even under low visibility conditions. By identifying the navigational mechanisms that underpin this behaviour, I aim to find lightweight and efficient navigation algorithms that can be applied to underwater autonomous vehicles. In this talk, I will share my research on the visual and cognitive abilities of fish, demonstrate how advances in AI are expanding the scope of questions behavioural biologists can tackle, and explore how insights from natural intelligence might inspire the design of artificial systems.
-
+- title: "From Hype to Hypotheses: Why AI-for-Science Is Hard - and What It Takes to Make It Work"
+  start: "10:15"
+  end: "10:30"
+  author:
+  - given: Tegan
+    family: Emerson
+    affiliation: Pacific Northwest National Laboratory
 - title: "Benchmarking for Experiments in Inference across Dynamic Spatial Boundaries: Water Quality"
   start: "10:30"
   end: "10:45"
@@ -52,13 +57,6 @@ talks:
   - given: Stephan
     family: Mandt
     affiliation: University of California, Irvine
-- title: "From Hype to Hypotheses: Why AI-for-Science Is Hard - and What It Takes to Make It Work"
-  start: "10:15"
-  end: "10:30"
-  author:
-  - given: Tegan
-    family: Emerson
-    affiliation: Pacific Northwest National Laboratory
 - title: "Coffee"
   start: "11:00"
   end: "11:30"
