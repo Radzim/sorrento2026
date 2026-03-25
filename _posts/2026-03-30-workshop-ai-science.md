@@ -43,20 +43,20 @@ talks:
   - given: Tegan
     family: Emerson
     affiliation: Pacific Northwest National Laboratory
-- title: "Benchmarking for Experiments in Inference across Dynamic Spatial Boundaries: Water Quality"
+- title: "Scientific Inference with Diffusion Models"
   start: "10:30"
   end: "10:45"
-  author:
-  - given: Claire
-    family: Hardgrove
-    affiliation:
-- title: "Scientific Inference with Diffusion Models"
-  start: "10:45"
-  end: "11:00"
   author:
   - given: Stephan
     family: Mandt
     affiliation: University of California, Irvine
+- title: "Benchmarking for Experiments in Inference across Dynamic Spatial Boundaries: Water Quality"
+  start: "10:45"
+  end: "11:00"
+  author:
+  - given: Claire
+    family: Hardgrove
+    affiliation:
 - title: "Coffee"
   start: "11:00"
   end: "11:30"
