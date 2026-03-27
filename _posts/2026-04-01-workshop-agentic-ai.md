@@ -58,7 +58,7 @@ talks:
 - title: "Coffee Break"
   start: "11:00"
   end: "11:30"
-- title: "Talk by Özgür Şimşek"
+- title: "What is a useful action?"
   start: "11:30"
   end: "11:50"
   speaker: Özgür Şimşek
@@ -67,7 +67,7 @@ talks:
     family: Şimşek
     affiliation: University of Bath
   abstract: |
-   TBD
+   How can autonomous agents develop useful action hierarchies on their own? This research question is critically important for achieving fully autonomous behaviour in large, complex environments. In this talk, we will explore two promising approaches. We will first explore the graphical representation of the agent-environment interaction, focusing on how modularity maximisation can expose the temporal structure of this interaction graph at multiple levels of abstraction, enabling the creation of action hierarchies that closely match human intuition and improve learning performance. We will then explore, as an alternative complementary approach, agent behaviour that led to successful outcomes in the past, focusing on how recurring action sequences can be brought together to form new actions that enable rapid adaptation to new tasks. 
 - title: "Open Source LLMs for the Research Community"
   start: "11:50"
   end: "12:10"
