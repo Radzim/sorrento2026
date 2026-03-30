@@ -55,6 +55,16 @@ talks:
 #    affiliation: Microsoft Research
 #  abstract: |
 #    TBD
+- title: "An Agentic Framework for Automated Histopathology Analysis and Discovery"
+  start: "10:30"
+  end: "10:50"
+  speaker: Stephanie Hyland
+  author:
+  - given: Stephanie
+    family: Hyland
+    affiliation: University of Bath
+  abstract: |
+  Histopathology presents unique computational challenges due to the complexity of handling datasets of whole-slide images while executing analysis workflows. In this work, we introduce an agentic system (NOVA) to orchestrate over 40 computational pathology tools to answer multi-step queries. To evaluate its capabilities on realistic histopathology analysis and discovery tasks, we introduce SlideQuest: a benchmark of 90 expert-verified questions across four categories: DataQA, CellularQA, PatchQA, and SlideQA. We demonstrate in a qualitative case study how such a system can enable a pathologist to link morphology to prognostically relevant PAM50 subtypes in breast cancer. Overall this work presents a proof of concept for how domain-specific tooling can enable general-purpose reasoning models to conduct scientifically valuable tasks in a scalable fashion.
 - title: "Coffee Break"
   start: "11:00"
   end: "11:30"
