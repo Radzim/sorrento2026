@@ -91,7 +91,7 @@ talks:
     affiliation: University of Oxford
   abstract: |
    TBD
-- title: "Talk by Christian Cabrera"
+- title: "DOAgent: A Data-Oriented Library for Observable Multi-Agent Systems"
   start: "14:50"
   end: "15:10"
   speaker: Christian Cabrera
@@ -100,7 +100,7 @@ talks:
     family: Cabrera
     affiliation: University of Cambridge
   abstract: |
-   TBD
+   Intellectual debt emerges when we deploy ML-based systems we do not fully understand and control. Multi-agent systems (MAS) can generate intellectual debt when agents make opaque decisions. DOAgent is a data-oriented library that addresses this by making agent behaviour observable and traceable through a shared data model. This talk introduces the library, demonstrates how it supports diverse policies from heuristics to LLMs, and shows how we can build MAS that are observable and interpretable by design.
 - title: "Panel Discussion"
   start: "15:15"
   end: "16:00"
